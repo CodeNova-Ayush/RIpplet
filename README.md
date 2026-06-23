@@ -262,9 +262,4 @@ See [`db/queries.sql`](db/queries.sql) for the full, commented query file.
 | GET | `/api/payments/:id` | Get payment by ID |
 | POST | `/api/payments` | Create payment (enforces 1:1) |
 | PUT | `/api/payments/:id` | Update payment status |
-| **Delivery Agents** | | |
-| GET | `/api/delivery-agents` | List all agents |
-| GET | `/api/delivery-agents/:id` | Get agent by ID |
-| POST | `/api/delivery-agents` | Create new agent |
-| PUT | `/api/delivery-agents/:id` | Update agent |
-| DELETE | `/api/delivery-agents/:id` | Delete agent |
+
