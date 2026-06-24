@@ -257,9 +257,4 @@ See [`db/queries.sql`](db/queries.sql) for the full, commented query file.
 | POST | `/api/orders` | Create order (with items, validates stock) |
 | PUT | `/api/orders/:id` | Update order status/agent |
 | DELETE | `/api/orders/:id` | Delete order (cascades) |
-| **Payments** | | |
-| GET | `/api/payments` | List all payments |
-| GET | `/api/payments/:id` | Get payment by ID |
-| POST | `/api/payments` | Create payment (enforces 1:1) |
-| PUT | `/api/payments/:id` | Update payment status |
 
